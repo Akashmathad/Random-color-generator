@@ -1,0 +1,12 @@
+.color-box {
+  height: 15rem;
+  background-color: blueviolet;
+  font-size: 3.8rem;
+  letter-spacing: 1.5px;
+  color: #fff;
+  border-radius: 13px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+.reset-btn {
+  position: absolute;
+  padding: 1.2rem 2.4rem;
+  font-family: inherit;
+  font-size: 2rem;
+  background-color: #5c15bd;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 15px;
+
+  top: 2rem;
+  right: 5rem;
+  transition: all 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #6c2cc4;
+}
+
+@media (max-width: 63em) {
+  .button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.2rem 0;
+  }
+  .reset-btn {
+    position: static;
+  }
+}
